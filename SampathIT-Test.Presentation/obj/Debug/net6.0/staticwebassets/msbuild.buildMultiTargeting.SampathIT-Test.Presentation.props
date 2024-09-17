@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SampathIT-Test.Presentation.props" />
+</Project>

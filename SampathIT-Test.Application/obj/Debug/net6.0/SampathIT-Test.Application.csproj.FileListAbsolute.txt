@@ -1,0 +1,15 @@
+C:\SampathIT-Test\SampathIT-Test.Application\bin\Debug\net6.0\SampathIT-Test.Application.deps.json
+C:\SampathIT-Test\SampathIT-Test.Application\bin\Debug\net6.0\SampathIT-Test.Application.dll
+C:\SampathIT-Test\SampathIT-Test.Application\bin\Debug\net6.0\SampathIT-Test.Application.pdb
+C:\SampathIT-Test\SampathIT-Test.Application\bin\Debug\net6.0\SampathIT-Test.Domain.dll
+C:\SampathIT-Test\SampathIT-Test.Application\bin\Debug\net6.0\SampathIT-Test.Domain.pdb
+C:\SampathIT-Test\SampathIT-Test.Application\obj\Debug\net6.0\SampathIT-Test.Application.csproj.AssemblyReference.cache
+C:\SampathIT-Test\SampathIT-Test.Application\obj\Debug\net6.0\SampathIT-Test.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\SampathIT-Test\SampathIT-Test.Application\obj\Debug\net6.0\SampathIT-Test.Application.AssemblyInfoInputs.cache
+C:\SampathIT-Test\SampathIT-Test.Application\obj\Debug\net6.0\SampathIT-Test.Application.AssemblyInfo.cs
+C:\SampathIT-Test\SampathIT-Test.Application\obj\Debug\net6.0\SampathIT-Test.Application.csproj.CoreCompileInputs.cache
+C:\SampathIT-Test\SampathIT-Test.Application\obj\Debug\net6.0\SampathIT-Test.Application.csproj.CopyComplete
+C:\SampathIT-Test\SampathIT-Test.Application\obj\Debug\net6.0\SampathIT-Test.Application.dll
+C:\SampathIT-Test\SampathIT-Test.Application\obj\Debug\net6.0\refint\SampathIT-Test.Application.dll
+C:\SampathIT-Test\SampathIT-Test.Application\obj\Debug\net6.0\SampathIT-Test.Application.pdb
+C:\SampathIT-Test\SampathIT-Test.Application\obj\Debug\net6.0\ref\SampathIT-Test.Application.dll

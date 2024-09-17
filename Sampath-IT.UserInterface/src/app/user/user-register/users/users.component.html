@@ -1,0 +1,80 @@
+<div class="container">
+    <div class="col-md-9">
+        <p>Search by</p>
+            <form #form="ngForm" (ngSubmit)="search(form)">
+            
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <!-- <label for="name">Name</label> --> <input class="form-control" name = "firstname" type="text" placeholder="First Name" ngModel> </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <!-- <label for="name">Name</label> --> <input class="form-control" name = "lastname" type="text" placeholder="Last Name" ngModel> </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <!-- <label for="name">Name</label> --> <input class="form-control" name = "dateofbirth" type="date" placeholder="DOB" ngModel> </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <!-- <label for="name">Name</label> --> <input class="form-control" name = "gender" type="text" placeholder="Gender" ngModel> </div>
+                </div>
+            </div>
+            <hr>
+            <button type="submit" class="btn btn-primary btn-block confirm-button">Search</button>
+        </form>
+    </div>
+    </div>
+
+<!-------------------------------------------users------------------------>
+<link rel="stylesheet" href="https://allyoucan.cloud/cdn/icofont/1.0.1/icofont.css" integrity="sha384-jbCTJB16Q17718YM9U22iJkhuGbS0Gd2LjaWb4YJEZToOPmnKDjySVa323U+W7Fv" crossorigin="anonymous">
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-9">
+            <div class="osahan-account-page-right shadow-sm bg-white p-4 h-100">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane  fade  active show" id="orders" role="tabpanel" aria-labelledby="orders-tab">
+                        <h4 class="font-weight-bold mt-0 mb-4">Users</h4>
+                        <div class="bg-white card mb-4 order-list shadow-sm" *ngFor="let user of users">
+                            <div class="gold-members p-4">
+                                <a href="#">
+                                </a>
+                                <div class="media">
+                                    <div class="media-body">
+                                        
+                                            <h3><span class="float-right text-info">{{(user.title==0)?"Mr.":"Mrs."}}{{user.firstName+" "+user.lastName}} <i class="icofont-check-circled text-success"></i></span></h3>
+                                        
+                                        <!-- <h6 class="mb-2">
+                                            <a href="#"></a>
+                                            <a href="#" class="text-black">Gus's World Famous Fried Chicken</a>
+                                        </h6> -->
+                                        
+                                        <!-- <p class="text-gray mb-3"><i class="icofont-list"></i> ORDER #25102589748 <i class="icofont-clock-time ml-2"></i> Mon, Nov 12, 6:26 PM</p> -->
+                                        <p>Gender {{(user.gender==0)?"Male":"Female"}}</p>
+                                        <p>Remark {{user.remark}}</p>
+                                        <hr>
+                                        
+                                        <button class="btn btn-primary btn-block confirm-button" (click)="edit(user.id)">Edit</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,2 @@
+C:\Projects\LearningPlatform\OnlineLearning.UserInterface\obj\Debug\OnlineLearning.UserInterface.esproj.SuggestedBindingRedirects.cache
+C:\Projects\LearningPlatform\OnlineLearning.UserInterface\obj\Debug\OnlineLearning.UserInterface.esproj.CoreCompileInputs.cache

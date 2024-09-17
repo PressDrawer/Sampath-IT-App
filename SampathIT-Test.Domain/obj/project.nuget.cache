@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "gDrGgzYMZh16Wbs1m58XY01LUX2VmA17dUcULs3OrWL1X3cNiYubQOE0Vk/Lh0YMwwa+cfGi0yP3QISK/0lhEw==",
+  "success": true,
+  "projectFilePath": "C:\\SampathIT-Test\\SampathIT-Test.Domain\\SampathIT-Test.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\NAYANAJITH\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.31\\microsoft.windowsdesktop.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\NAYANAJITH\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.31\\microsoft.netcore.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\NAYANAJITH\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.31\\microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}
